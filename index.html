@@ -6,16 +6,19 @@
     <style>
         @font-face {
             font-family: '仿宋';
-            src: url('./simfang.woff');
+            src: url('./simfang.woff') format('woff'),
+				 url('./SIMFANG.TTF') format('truetype');
         }
         @font-face {
             font-family: '楷体';
-            src: url('./simkai.woff');
+            src: url('./simkai.woff') format('woff'),
+				 url('./SIMKAI.TTF') format('truetype');
         }
 
 		@font-face {
             font-family: '小标宋';
-            src: url('./fzxbsjw.woff');
+            src: url('./fzxbsjw.woff') format('woff'),
+				 url('./FZXBSJW.TTF') format('truetype');
         }
 
         table {
@@ -37,11 +40,11 @@
     }
 
     th:nth-child(2), td:nth-child(2) {
-        width: 145px; /* 第二列的宽度 */
+        width: 150px; /* 第二列的宽度 */
     }
 
     th:nth-child(3), td:nth-child(3) {
-        width: 145px; /* 第三列的宽度 */
+        width: 150px; /* 第三列的宽度 */
     }
 
 
